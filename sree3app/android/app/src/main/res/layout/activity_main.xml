@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity"
+    >
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submitBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/button_bg_green"
+        android:padding="8dp"
+        android:text="Check whether mada app is installed"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+         />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submitBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/button_bg_green"
+        android:padding="8dp"
+        android:text="call_mada_to_initiate_Card_Payment"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submitBtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/button_bg_green"
+        android:padding="8dp"
+        android:text="Print"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        />
+
+
+
+</LinearLayout>
